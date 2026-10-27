@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover who we are, our four principles, and how to contact us.">
+  <title>Our Brand | Who We Are</title>
+  <style>
+    :root{--ink:#173c3d;--muted:#52676a;--green:#276653;--cream:#f7f8f5}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.7;background:white}
+    header{padding:20px max(6%,calc((100% - 1150px)/2));display:flex;justify-content:space-between;align-items:center;background:white}
+    .brand{font-size:21px;font-weight:bold;letter-spacing:-.5px}.brand span{color:var(--green)}nav a{color:var(--ink);text-decoration:none;margin-left:22px;font-size:14px}
+    .hero{min-height:480px;display:flex;align-items:center;justify-content:center;text-align:center;padding:75px 20px;background:linear-gradient(90deg,rgba(255,255,255,.68),rgba(255,255,255,.4)),url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=85') center/cover}
+    .hero-inner{max-width:720px}.eyebrow{font-size:13px;letter-spacing:3px;text-transform:uppercase;font-weight:bold;color:var(--green)}h1{font-size:clamp(38px,6vw,64px);line-height:1.12;margin:18px 0 24px;letter-spacing:-2px}h2{font-size:clamp(30px,4vw,43px);line-height:1.2;letter-spacing:-1px;margin:12px 0 18px}p{color:var(--muted)}.hero p{font-size:19px;color:#294b4d}
+    section{padding:85px 6%}.container{max-width:1150px;margin:auto}.center{text-align:center}.intro{max-width:650px;margin:0 auto 55px}.intro p{font-size:17px}
+    .cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}.card img{display:block;width:100%;height:235px;object-fit:cover;border-radius:4px}.card h3{font-size:22px;color:var(--green);margin:23px 0 10px}.card p{font-size:15px;margin:0}
+    .contact{background:var(--cream);text-align:center}.contact p{max-width:530px;margin:0 auto 26px}.email{display:inline-block;color:var(--green);font-weight:bold;font-size:18px;text-decoration:none;border-bottom:1px solid var(--green)}.email:hover{opacity:.7}
+    footer{text-align:center;padding:22px;color:var(--muted);font-size:13px}
+    @media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.card img{height:220px}}@media(max-width:520px){header{padding:16px 5%}nav a{margin-left:12px;font-size:12px}.brand{font-size:17px}.cards{grid-template-columns:1fr}.card img{height:240px}section{padding:65px 6%}.hero{min-height:430px}}
+  </style>
+</head>
+<body>
+  <header><div class="brand">✦ <span>Our Brand</span></div><nav><a href="#about">Who We Are</a><a href="#principles">Our Principles</a><a href="#contact">Contact</a></nav></header>
+  <main>
+    <section class="hero" id="about"><div class="hero-inner"><div class="eyebrow">Who We Are</div><h1>We're a small team with a big mission.</h1><p>We believe in creating simple, meaningful solutions that make a positive impact. Our goal is to help people, ideas and communities grow — together.</p></div></section>
+    <section id="principles"><div class="container"><div class="intro center"><div class="eyebrow">Our Service</div><h2>Built on four key principles</h2><p>Everything we do is guided by these four principles. They shape our decisions, our work and the value we bring.</p></div><div class="cards">
+      <article class="card"><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=85" alt="Green plant growing in soil"><h3>01. Sustainability</h3><p>We care about the future. Our solutions are designed to be responsible, mindful and long-lasting.</p></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=85" alt="People working and connecting together"><h3>02. Collaboration</h3><p>We believe in the power of people. We work closely with our clients and partners to achieve better results.</p></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=85" alt="Mountain peaks symbolizing ambition"><h3>03. Excellence</h3><p>We strive for quality in everything we do. It's not just a goal — it's our standard.</p></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=85" alt="Bright creative workspace"><h3>04. Innovation</h3><p>We stay curious and open-minded. We look for better ways, new ideas and creative solutions.</p></article>
+    </div></div></section>
+    <section class="contact" id="contact"><div class="container"><div class="eyebrow">Get in Touch</div><h2>Contact us</h2><p>We'd love to hear from you. Whether you have a question, a project in mind or just want to say hello — feel free to reach out.</p><a class="email" href="mailto:hello@example.com">✉ hello@example.com</a></div></section>
+  </main>
+  <footer>© 2026 Our Brand. All rights reserved.</footer>
+</body>
+</html>
